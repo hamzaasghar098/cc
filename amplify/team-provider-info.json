@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hamza-dev-7ce80-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112956702:role/amplify-hamza-dev-7ce80-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112956702:role/amplify-hamza-dev-7ce80-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-hamza-dev-7ce80-deployment",
+      "UnauthRoleName": "amplify-hamza-dev-7ce80-unauthRole",
+      "StackName": "amplify-hamza-dev-7ce80",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:471112956702:stack/amplify-hamza-dev-7ce80/a222a3a0-3d28-11ef-a9b2-020a5d9a9a81",
+      "AmplifyAppId": "dvs0rnk3458z4"
+    }
+  },
+  "yoko": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hamza-yoko-62bfc-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112956702:role/amplify-hamza-yoko-62bfc-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112956702:role/amplify-hamza-yoko-62bfc-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hamza-yoko-62bfc-deployment",
+      "UnauthRoleName": "amplify-hamza-yoko-62bfc-unauthRole",
+      "StackName": "amplify-hamza-yoko-62bfc",
+      "StackId": "arn:aws:cloudformation:us-east-1:471112956702:stack/amplify-hamza-yoko-62bfc/4b4923e0-3d2a-11ef-93c7-12e8c3150f6f",
+      "AmplifyAppId": "d2op06wsgb02m4"
+    }
+  }
+}

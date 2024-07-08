@@ -1,0 +1,39 @@
+version: 1
+applications:
+  - appRoot: .
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm install -g npm
+            - npm install -g @aws-amplify/cli
+            - amplify init --yes
+            - amplify push --yes
+        build:
+          commands:
+            - flutter pub get
+            - flutter build web
+      artifacts:
+        baseDirectory: build/web
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+          - build/web/**/*
+    backend:
+      phases:
+        preBuild:
+          commands:
+            - npm install -g @aws-amplify/cli
+        build:
+          commands:
+            - amplifyPush --simple
+      artifacts:
+        baseDirectory: build
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - build/**/*
+
